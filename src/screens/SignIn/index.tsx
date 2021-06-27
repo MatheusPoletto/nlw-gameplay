@@ -2,7 +2,6 @@ import React from 'react';
 import { View, Image, Text } from 'react-native';
 
 import { styles } from './styles';
-
 import { ButtonIcon } from '../../components/ButtonIcon';
 import IllustrationImg from '../../assets/illustration.png';
 
