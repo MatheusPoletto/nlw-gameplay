@@ -1,5 +1,5 @@
 import React from 'react';
-import { View, Image, Text, StatusBar } from 'react-native';
+import { View, Image, Text } from 'react-native';
 
 import { styles } from './styles';
 
@@ -10,7 +10,6 @@ export function SignIn(){
 
     return (
         <View style={styles.container}>  
-            <StatusBar barStyle="light-content" backgroundColor="transparent" translucent/>
             <Image source={IllustrationImg} style={styles.image} resizeMode="stretch"/>
 
             <View style={styles.content}>
@@ -21,7 +20,7 @@ export function SignIn(){
                 </Text>
 
                 <Text style={styles.subtitle}>                    
-                    Cire grupos para jogar seus games{`\n`}
+                    Crie grupos para jogar seus games{`\n`}
                     favoritos com seus amigos
                 </Text>
 
